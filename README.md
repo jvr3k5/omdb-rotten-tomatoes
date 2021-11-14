@@ -10,6 +10,12 @@ To query for the movie's Rotten Tomato rating, in root directory simply run in u
 python3 -m src <movie_title>
 ```
 
+Alternatively, with already built docker image:
+
+```
+docker run <image_name> <movie_title>
+```
+
 Rating should be returned to stdout.
 
 ## Dockerization
